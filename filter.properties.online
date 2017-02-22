@@ -1,0 +1,13 @@
+#环境配置
+JAVA_HOME=/usr/lib/jvm/java-6-sun/
+ALARM_DIR=/home/weblog/monitorfile
+HADOOP_HOME=/home/weblog/hadoop
+HADOOP_CONF_DIR=${HADOOP_HOME}/etc/hadoop/
+HADOOP=${HADOOP_HOME}/bin/hadoop
+
+#路径配置
+LOCAL_BASE_DIR=/home/weblog/dadaAnalysis
+JAR=${LOCAL_BASE_DIR}/dadaAnalysis/dadaOffline-0.1.0-jar-with-dependencies.jar
+RUN_DIR=${LOCAL_BASE_DIR}/dadaAnalysis/run
+TAG_Dir=${LOCAL_BASE_DIR}/dadaOfflineTag
+RESULT_LOCAL_DIR=${LOCAL_BASE_DIR}/data/
